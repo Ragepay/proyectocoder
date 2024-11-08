@@ -1,0 +1,39 @@
+.item-list-container {
+    margin: 20px;
+    padding: 20px;
+    margin-top: 60px;
+}
+
+.filter-container {
+    margin-bottom: 20px; /* Espacio debajo del filtro */
+    padding: 10px; /* Espacio interno */
+    border: 1px solid #ccc; /* Borde alrededor del contenedor del filtro */
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: #f9f9f9; /* Color de fondo suave */
+}
+
+.filter-container label {
+    margin-right: 10px; /* Espacio a la derecha del label */
+}
+
+.filter-container select {
+    padding: 0.5rem; /* Espaciado interno del select */
+    font-size: 1rem; /* Tamaño de fuente */
+    border: 1px solid #ccc; /* Borde del select */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar cursor al pasar por encima */
+}
+
+.products-container {
+    display: flex; /* Utiliza Flexbox para el layout */
+    flex-wrap: wrap; /* Permite que las tarjetas se muevan a la siguiente línea si no hay espacio */
+    flex-direction: row; /* Espacia las tarjetas en el contenedor */
+    margin: 20px; /* Margen alrededor del contenedor */
+    gap: 20px; /* Espacio entre tarjetas */
+    margin-top: 20px; /* Ajustado para alinearse con el resto del diseño */
+}
+
+.products-container a {
+    margin: 0;
+    padding: 0;
+}

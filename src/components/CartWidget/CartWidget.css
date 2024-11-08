@@ -1,0 +1,48 @@
+/* cartWidget.css */
+
+/* Contenedor principal del widget */
+.cart-widget {
+  position: relative;
+  display: inline-block;
+  font-family: Arial, sans-serif;
+}
+
+/* Estilo para el enlace */
+.cart-link {
+  text-decoration: none;
+  color: #000;
+  display: flex;
+  align-items: center;
+}
+
+/* Icono del carrito */
+.cart-link img {
+  width: 40px;
+  height: 40px;
+  margin-right: 8px;
+  /* Espacio entre el ícono y el número */
+}
+
+/* Contenedor del número de artículos */
+.cart-link span {
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+  position: relative;
+}
+
+/* Estilo para el número de artículos */
+.cart-link span:last-child {
+  background-color: #f44336;
+  /* Fondo rojo */
+  color: white;
+  /* Color del texto */
+  border-radius: 50%;
+  padding: 4px 8px;
+  font-size: 14px;
+  position: absolute;
+  top: -6px;
+  right: -6px;
+}
+
+

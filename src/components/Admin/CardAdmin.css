@@ -1,0 +1,122 @@
+/* Card.css */
+
+.card {
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 320px;
+    margin: 20px auto;
+    text-align: center;
+    background-color: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-image {
+    width: 100%; /* Mantiene la imagen en el ancho del contenedor */
+    height: 200px; /* Altura fija para todas las imágenes */
+    object-fit: cover; /* Asegura que la imagen cubra todo el espacio sin distorsionarse */
+    border-bottom: 1px solid #ddd; /* Borde inferior opcional */
+  }
+  
+  
+  .card-content {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 1.6em;
+    font-weight: 600;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .card-description {
+    color: #666;
+    margin: 10px 0;
+    font-size: 1em;
+    line-height: 1.5;
+  }
+  
+  .card-price {
+    font-size: 1.4em;
+    color: #42b883;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .card-stock {
+    font-size: 0.9em;
+    color: #999;
+    margin-bottom: 15px;
+  }
+  
+  .buttonCard {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+  }
+  
+  .card-button {
+    background-color: #42b883;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+    margin: 0 5px;
+    display: inline-block;
+  }
+  
+  .card-button:hover {
+    background-color: #36a76a;
+  }
+  
+  .card-button:active {
+    transform: scale(0.95);
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 768px) {
+    .card {
+        max-width: 100%;
+        margin: 15px auto;
+    }
+  
+    .card-content {
+        padding: 15px;
+    }
+  
+    .card-title {
+        font-size: 1.4em;
+    }
+  
+    .card-price {
+        font-size: 1.2em;
+    }
+  
+    .card-description,
+    .card-stock {
+        font-size: 0.9em;
+    }
+  
+    .buttonCard {
+        flex-direction: column;
+    }
+  
+    .card-button {
+        width: 80%;
+        margin: 5px 0;
+        font-size: 0.9em;
+        padding: 8px 0;
+    }
+  }
+  

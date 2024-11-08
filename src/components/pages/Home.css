@@ -1,0 +1,58 @@
+
+
+.home-container {
+    text-align: center;
+    /* Centra el contenido */
+    padding: 20px;
+    /* Espaciado interno */
+    background-color: #f9f9f9;
+    /* Color de fondo suave */
+    border-radius: 8px;
+    /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    /* Sombra para dar profundidad */
+    margin: 20px;
+    /* Margen externo */
+}
+
+.home-title {
+    font-size: 2.5em;
+    /* Tamaño del título */
+    margin-bottom: 10px;
+    /* Espaciado inferior */
+    color: #333;
+    /* Color del texto */
+}
+
+.home-intro {
+    font-size: 1.2em;
+    /* Tamaño del párrafo */
+    margin-bottom: 20px;
+    /* Espaciado inferior */
+    color: #666;
+    /* Color del texto */
+}
+
+.home-button {
+    padding: 10px 20px;
+    /* Espaciado interno del botón */
+    font-size: 1em;
+    /* Tamaño del texto del botón */
+    background-color: #282c34;
+    /* Color de fondo del botón */
+    color: white;
+    /* Color del texto del botón */
+    border: none;
+    /* Sin borde */
+    border-radius: 5px;
+    /* Bordes redondeados */
+    cursor: pointer;
+    /* Cambia el cursor al pasar por encima */
+    transition: background-color 0.3s;
+    /* Transición para el color de fondo */
+}
+
+.home-button:hover {
+    background-color: #0056b3;
+    /* Color de fondo del botón al pasar el mouse */
+}
